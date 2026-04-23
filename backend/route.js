@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const userController = require('./Controller/UserController');
-const productController = require('./Controller/ProductController');
-const orderController = require('./Controller/OrderController');
+const userController = require('./controller/UserController');
+const productController = require('./controller/ProductController');
+const orderController = require('./controller/OrderController');
 
 // Product routes
 router.post('/add', productController.addProduct);
